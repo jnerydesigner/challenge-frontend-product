@@ -2,14 +2,13 @@ import { GridItem } from '@chakra-ui/react'
 import { MenuEsquerdo } from '../components/MenuEsquerdo'
 import { Products } from '../components/Products'
 
-export function Home() {
+export function Details() {
   return (
     <>
       <MenuEsquerdo />
       <GridItem
         colSpan={4}
-        rowSpan={2}
-        bg="burgundy.400"
+        bg="burgundy.700"
         padding="2"
       >
         <Products />
