@@ -21,6 +21,13 @@ Conforme o solicitado, algumas features foram implementadas, mas não todas que 
 
 ![Tela de Upload de Imagens do Produto](https://github.com/jnerydesigner/challenge-frontend-product/blob/main/src/assets/telas/tela-de-upload-de-imagem.png)
 
+## Tecnologias Utilizadas
+
+### Para o CSS
+
+[Styled Components](https://styled-components.com/docs/api)
+[Chakra Ui](https://chakra-ui.com/docs/getting-started)
+
 **1 - Execute o código**
 
     yarn start
