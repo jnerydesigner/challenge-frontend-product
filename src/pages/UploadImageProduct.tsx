@@ -1,4 +1,4 @@
-import { Box, GridItem, Heading } from '@chakra-ui/react'
+import { Box, GridItem } from '@chakra-ui/react'
 import { FormUploadProduct } from '../components/FormUploadProduct'
 import { MenuEsquerdo } from '../components/MenuEsquerdo'
 

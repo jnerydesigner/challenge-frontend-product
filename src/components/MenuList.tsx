@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { List, ListItem, Link as LinkChakra } from "@chakra-ui/react"
+import { List, ListItem } from "@chakra-ui/react";
+
+import { Link } from 'react-router-dom';
 import { api } from '../services/api';
 // import { FcViewDetails, FcHome, FcManager } from 'react-icons/fc';
 
@@ -33,16 +35,16 @@ export function MenuList() {
       px="2"
     >
       <ListItem >
-        <LinkChakra
-          color="burgundy.800"
-        >Todas</LinkChakra>
+        <Link
+          to="/"
+        >Todas</Link>
       </ListItem>
       {category.map(cat => {
         return (
           <ListItem key={cat.slug}>
-            <LinkChakra
-              color="burgundy.800"
-            >{cat.name}</LinkChakra>
+            <Link
+              to={'/'}
+            >{cat.name}</Link>
           </ListItem>
         )
       })}
