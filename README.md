@@ -26,6 +26,7 @@ Conforme o solicitado, algumas features foram implementadas, mas não todas que 
 ### Para o CSS
 
 [Styled Components](https://styled-components.com/docs/api)
+
 [Chakra Ui](https://chakra-ui.com/docs/getting-started)
 
 **1 - Execute o código**
